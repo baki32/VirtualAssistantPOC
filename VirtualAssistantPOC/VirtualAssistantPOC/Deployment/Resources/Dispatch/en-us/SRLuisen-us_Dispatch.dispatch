@@ -1,0 +1,50 @@
+{
+  "authoringRegion": "westeurope",
+  "culture": "en-us",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_General",
+      "appId": "0f971e11-143f-456a-bffe-243c7be4b16a",
+      "authoringKey": "314f8374f8194f7dba705f3b01374ab3",
+      "version": "0.1",
+      "region": "westeurope",
+      "type": "luis",
+      "name": "SRLuisen-us_General",
+      "id": "1"
+    },
+    {
+      "intentName": "q_Chitchat",
+      "includePrompts": true,
+      "kbId": "dd9c8746-7688-450e-908e-efe1a61308fb",
+      "subscriptionKey": "a7cc9d67f8c94e2db072dbde405f12c6",
+      "type": "qna",
+      "name": "Chitchat",
+      "id": "2"
+    },
+    {
+      "intentName": "q_Faq",
+      "includePrompts": true,
+      "kbId": "6a441259-3dc3-4ca8-92c9-7e9ea1383a0b",
+      "subscriptionKey": "a7cc9d67f8c94e2db072dbde405f12c6",
+      "type": "qna",
+      "name": "Faq",
+      "id": "3"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3"
+  ],
+  "appId": "42f6938b-3f82-43f1-9b93-ab6e40823a7e",
+  "authoringKey": "314f8374f8194f7dba705f3b01374ab3",
+  "version": "Dispatch",
+  "region": "westeurope",
+  "type": "dispatch",
+  "name": "SRLuisen-us_Dispatch"
+}

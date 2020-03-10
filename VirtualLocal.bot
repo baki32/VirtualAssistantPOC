@@ -1,0 +1,18 @@
+{
+    "name": "VirtualLocal",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "634bc42f-4c9f-44a8-a848-745eb48c82c3",
+            "appPassword": "oVUybxL:A+Rv=BZn",
+            "endpoint": "http://localhost:1205/api/messages",
+            "id": "727deed0-5eec-11ea-a4ff-e980c55f13fa",
+            "name": "http://localhost:1205/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\TomasBakita\\source\\repos\\SwissReAssistantPOC\\VirtualLocal.bot"
+}

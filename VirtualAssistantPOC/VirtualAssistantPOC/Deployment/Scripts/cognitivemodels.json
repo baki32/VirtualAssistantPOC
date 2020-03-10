@@ -1,0 +1,47 @@
+{
+  "defaultLocale": "en-us",
+  "cognitiveModels": {
+    "en-us": {
+      "dispatchModel": {
+        "authoringkey": "314f8374f8194f7dba705f3b01374ab3",
+        "authoringRegion": "westeurope",
+        "name": "SRLuisen-us_Dispatch",
+        "type": "dispatch",
+        "appid": "42f6938b-3f82-43f1-9b93-ab6e40823a7e",
+        "subscriptionkey": "314f8374f8194f7dba705f3b01374ab3",
+        "region": "westeurope",
+        "version": "Dispatch"
+      },
+      "languageModels": [
+        {
+          "authoringRegion": "westeurope",
+          "authoringkey": "314f8374f8194f7dba705f3b01374ab3",
+          "name": "SRLuisen-us_General",
+          "id": "General",
+          "appid": "0f971e11-143f-456a-bffe-243c7be4b16a",
+          "subscriptionkey": "314f8374f8194f7dba705f3b01374ab3",
+          "region": "westeurope",
+          "version": "0.1"
+        }
+      ],
+      "knowledgebases": [
+        {
+          "subscriptionKey": "a7cc9d67f8c94e2db072dbde405f12c6",
+          "hostname": "https://srpocqna.azurewebsites.net",
+          "name": "Chitchat",
+          "kbId": "dd9c8746-7688-450e-908e-efe1a61308fb",
+          "endpointKey": "abe74be0-1659-4b7a-bce3-fb316f947164",
+          "id": "Chitchat"
+        },
+        {
+          "subscriptionKey": "a7cc9d67f8c94e2db072dbde405f12c6",
+          "hostname": "https://srpocqna.azurewebsites.net",
+          "name": "Faq",
+          "kbId": "6a441259-3dc3-4ca8-92c9-7e9ea1383a0b",
+          "endpointKey": "abe74be0-1659-4b7a-bce3-fb316f947164",
+          "id": "Faq"
+        }
+      ]
+    }
+  }
+}

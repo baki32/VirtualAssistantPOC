@@ -1,0 +1,5 @@
+sample dialog
+demo dialog
+Test dialog
+Run dialog
+run sample dialog

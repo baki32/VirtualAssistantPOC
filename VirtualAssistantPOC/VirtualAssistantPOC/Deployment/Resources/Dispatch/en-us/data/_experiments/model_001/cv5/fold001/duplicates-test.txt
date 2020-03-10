@@ -1,0 +1,3 @@
+Utterance	Intents
+hello	None, q_Chitchat
+ok	l_General, q_Chitchat

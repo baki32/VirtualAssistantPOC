@@ -1,0 +1,15 @@
+{
+  "authoringRegion": "westeurope",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [],
+  "serviceIds": [],
+  "authoringKey": "314f8374f8194f7dba705f3b01374ab3",
+  "version": "Dispatch",
+  "region": "westeurope",
+  "type": "dispatch",
+  "name": "SRLuisen_Dispatch"
+}

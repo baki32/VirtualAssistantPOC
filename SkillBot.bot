@@ -1,0 +1,18 @@
+{
+    "name": "SkillBot",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "a30d4af6-7063-4a37-91f9-df3f5838ba5c",
+            "appPassword": "(W$#/T@[eQW^IyP#oU;7G8iHegW|k",
+            "endpoint": "https://skillbotsrpoc.azurewebsites.net/api/messages",
+            "id": "abd723b0-5ee0-11ea-a9dc-c1b3d2554eed",
+            "name": "https://skillbotsrpoc.azurewebsites.net/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\TomasBakita\\source\\repos\\SwissReAssistantPOC\\SkillBot.bot"
+}

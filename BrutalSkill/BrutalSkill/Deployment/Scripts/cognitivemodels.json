@@ -1,0 +1,29 @@
+{
+  "defaultLocale": "en-us",
+  "cognitiveModels": {
+    "en-us": {
+      "languageModels": [
+        {
+          "appid": "f4b2e5fb-623b-404c-aa64-f5ed32143e09",
+          "version": "0.1",
+          "name": "SRLuisen-us_BrutalSkill",
+          "authoringkey": "314f8374f8194f7dba705f3b01374ab3",
+          "region": "westeurope",
+          "authoringRegion": "westeurope",
+          "subscriptionkey": "314f8374f8194f7dba705f3b01374ab3",
+          "id": "BrutalSkill"
+        },
+        {
+          "appid": "1a65c838-2da0-46c7-9887-6ba0a8d88b87",
+          "version": "0.1",
+          "name": "SRLuisen-us_General",
+          "authoringkey": "314f8374f8194f7dba705f3b01374ab3",
+          "region": "westeurope",
+          "authoringRegion": "westeurope",
+          "subscriptionkey": "314f8374f8194f7dba705f3b01374ab3",
+          "id": "General"
+        }
+      ]
+    }
+  }
+}

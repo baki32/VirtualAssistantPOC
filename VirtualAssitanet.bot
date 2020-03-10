@@ -1,0 +1,18 @@
+{
+    "name": "VirtualAssitanet",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "634bc42f-4c9f-44a8-a848-745eb48c82c3",
+            "appPassword": "oVUybxL:A+Rv=BZn",
+            "endpoint": "https://zidanbot.azurewebsites.net/api/messages",
+            "id": "248a9990-5eeb-11ea-a4ff-e980c55f13fa",
+            "name": "https://zidanbot.azurewebsites.net/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\TomasBakita\\source\\repos\\SwissReAssistantPOC\\VirtualAssitanet.bot"
+}

@@ -1,0 +1,29 @@
+{
+  "cognitiveModels": {
+    "en-us": {
+      "languageModels": [
+        {
+          "appid": "",
+          "authoringkey": "",
+          "authoringRegion": "westeurope",
+          "id": "General",
+          "name": "SRLuisen-us_General",
+          "region": "westeurope",
+          "subscriptionkey": "",
+          "version": "0.1"
+        },
+        {
+          "appid": "",
+          "authoringkey": "",
+          "authoringRegion": "westeurope",
+          "id": "Skill",
+          "name": "SRLuisen-us_BrutalSkill",
+          "region": "westeurope",
+          "subscriptionkey": "",
+          "version": "0.1"
+        }
+      ]
+    }
+  },
+  "defaultLocale": "en-us"
+}

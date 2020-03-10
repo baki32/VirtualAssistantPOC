@@ -1,0 +1,38 @@
+{
+  "cognitiveModels": {
+    "en-us": {
+      "dispatchModel": {
+        "appid": "",
+        "authoringkey": "",
+        "authoringRegion": "westeurope",
+        "name": "Dispatch",
+        "region": "westeurope",
+        "subscriptionkey": "",
+        "type": "dispatch"
+      },
+      "languageModels": [
+        {
+          "appid": "",
+          "authoringkey": "",
+          "authoringRegion": "westeurope",
+          "id": "General",
+          "name": "General",
+          "region": "westeurope",
+          "subscriptionkey": "",
+          "version": "0.1"
+        }
+      ],
+      "knowledgebases": [
+        {
+          "endpointKey": "",
+          "hostname": "",
+          "id": "PocKB",
+          "kbId": "",
+          "name": "PocKB",
+          "subscriptionKey": ""
+        }
+      ]
+    }
+  },
+  "defaultLocale": "en-us"
+}

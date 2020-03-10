@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/**/bin
+/**/obj
+/.vs
+/**/node_modules
+/**/appsettings.development.json
+/**/cognitivemodels.development.json

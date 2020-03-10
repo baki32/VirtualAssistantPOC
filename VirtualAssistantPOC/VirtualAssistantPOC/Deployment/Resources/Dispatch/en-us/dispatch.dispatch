@@ -1,0 +1,59 @@
+{
+  "authoringRegion": "westeurope",
+  "culture": "en-us",
+  "hierarchical": true,
+  "useAllTrainingData": false,
+  "dontReviseUtterance": false,
+  "copyLuisData": true,
+  "normalizeDiacritics": true,
+  "services": [
+    {
+      "intentName": "l_General",
+      "appId": "eb38a000-aafb-4aed-b0b2-e64a5b604dac",
+      "authoringKey": "314f8374f8194f7dba705f3b01374ab3",
+      "version": "0.1",
+      "region": "westeurope",
+      "type": "luis",
+      "name": "General",
+      "id": "1"
+    },
+    {
+      "intentName": "q_Chitchat",
+      "includePrompts": true,
+      "kbId": "dd9c8746-7688-450e-908e-efe1a61308fb",
+      "subscriptionKey": "a7cc9d67f8c94e2db072dbde405f12c6",
+      "type": "qna",
+      "name": "Chitchat",
+      "id": "2"
+    },
+    {
+      "intentName": "q_Faq",
+      "includePrompts": true,
+      "kbId": "6a441259-3dc3-4ca8-92c9-7e9ea1383a0b",
+      "subscriptionKey": "a7cc9d67f8c94e2db072dbde405f12c6",
+      "type": "qna",
+      "name": "Faq",
+      "id": "3"
+    },
+    {
+      "includePrompts": true,
+      "intentName": "BrutalSkill",
+      "path": "C:\\Users\\TomasBakita\\source\\repos\\SwissReAssistantPOC\\BrutalSkill\\BrutalSkill\\Deployment\\Resources\\LU\\en-us\\brutalskill.luis",
+      "type": "file",
+      "name": "BrutalSkill",
+      "id": "4"
+    }
+  ],
+  "serviceIds": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "appId": "f6b681f4-1516-4c26-aee4-6e1278d6cf0e",
+  "authoringKey": "314f8374f8194f7dba705f3b01374ab3",
+  "version": "Dispatch",
+  "region": "westeurope",
+  "type": "dispatch",
+  "name": "Dispatch"
+}

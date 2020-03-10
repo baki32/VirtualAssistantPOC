@@ -1,0 +1,199 @@
+AZ CLI passes minimum version. Current version is 2.1.0
+SRLuisen-us_Dispatch.dispatch created
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   3         InProgrΓÇª           
+ Confirm                            Intent Classifier   3         InProgrΓÇª           
+ DirectionalReference               Entity Extractor    3         InProgrΓÇª           
+ Escalate                           Intent Classifier   3         InProgrΓÇª           
+ ExtractName                        Intent Classifier   3         InProgrΓÇª           
+ FinishTask                         Intent Classifier   3         InProgrΓÇª           
+ GoBack                             Intent Classifier   3         InProgrΓÇª           
+ Help                               Intent Classifier   3         InProgrΓÇª           
+ Logout                             Intent Classifier   3         InProgrΓÇª           
+ None                               Intent Classifier   3         InProgrΓÇª           
+ ReadAloud                          Intent Classifier   3         InProgrΓÇª           
+ Reject                             Intent Classifier   3         InProgrΓÇª           
+ Repeat                             Intent Classifier   3         InProgrΓÇª           
+ SelectAny                          Intent Classifier   3         InProgrΓÇª           
+ SelectItem                         Intent Classifier   3         InProgrΓÇª           
+ SelectNone                         Intent Classifier   3         InProgrΓÇª           
+ ShowNext                           Intent Classifier   3         InProgrΓÇª           
+ ShowPrevious                       Intent Classifier   3         InProgrΓÇª           
+ StartOver                          Intent Classifier   3         InProgrΓÇª           
+ Stop                               Intent Classifier   3         InProgrΓÇª           
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   3         InProgrΓÇª           
+ Confirm                            Intent Classifier   3         InProgrΓÇª           
+ DirectionalReference               Entity Extractor    3         InProgrΓÇª           
+ Escalate                           Intent Classifier   3         InProgrΓÇª           
+ ExtractName                        Intent Classifier   3         InProgrΓÇª           
+ FinishTask                         Intent Classifier   3         InProgrΓÇª           
+ GoBack                             Intent Classifier   3         InProgrΓÇª           
+ Help                               Intent Classifier   3         InProgrΓÇª           
+ Logout                             Intent Classifier   3         InProgrΓÇª           
+ None                               Intent Classifier   3         InProgrΓÇª           
+ ReadAloud                          Intent Classifier   3         InProgrΓÇª           
+ Reject                             Intent Classifier   3         InProgrΓÇª           
+ Repeat                             Intent Classifier   3         InProgrΓÇª           
+ SelectAny                          Intent Classifier   3         InProgrΓÇª           
+ SelectItem                         Intent Classifier   3         InProgrΓÇª           
+ SelectNone                         Intent Classifier   3         InProgrΓÇª           
+ ShowNext                           Intent Classifier   3         InProgrΓÇª           
+ ShowPrevious                       Intent Classifier   3         InProgrΓÇª           
+ StartOver                          Intent Classifier   3         InProgrΓÇª           
+ Stop                               Intent Classifier   3         InProgrΓÇª           
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   3         InProgrΓÇª           
+ Confirm                            Intent Classifier   3         InProgrΓÇª           
+ DirectionalReference               Entity Extractor    3         InProgrΓÇª           
+ Escalate                           Intent Classifier   3         InProgrΓÇª           
+ ExtractName                        Intent Classifier   3         InProgrΓÇª           
+ FinishTask                         Intent Classifier   3         InProgrΓÇª           
+ GoBack                             Intent Classifier   3         InProgrΓÇª           
+ Help                               Intent Classifier   3         InProgrΓÇª           
+ Logout                             Intent Classifier   3         InProgrΓÇª           
+ None                               Intent Classifier   3         InProgrΓÇª           
+ ReadAloud                          Intent Classifier   3         InProgrΓÇª           
+ Reject                             Intent Classifier   3         InProgrΓÇª           
+ Repeat                             Intent Classifier   3         InProgrΓÇª           
+ SelectAny                          Intent Classifier   3         InProgrΓÇª           
+ SelectItem                         Intent Classifier   3         InProgrΓÇª           
+ SelectNone                         Intent Classifier   3         InProgrΓÇª           
+ ShowNext                           Intent Classifier   3         InProgrΓÇª           
+ ShowPrevious                       Intent Classifier   3         InProgrΓÇª           
+ StartOver                          Intent Classifier   3         InProgrΓÇª           
+ Stop                               Intent Classifier   3         InProgrΓÇª           
+[31m Model                             [39m[31m Type               [39m[31m StatusId [39m[31m Status   [39m[31m          [39m
+ Cancel                             Intent Classifier   0         Success            
+ Confirm                            Intent Classifier   0         Success            
+ Escalate                           Intent Classifier   0         Success            
+ ExtractName                        Intent Classifier   0         Success            
+ FinishTask                         Intent Classifier   0         Success            
+ GoBack                             Intent Classifier   0         Success            
+ Help                               Intent Classifier   0         Success            
+ Logout                             Intent Classifier   0         Success            
+ None                               Intent Classifier   0         Success            
+ ReadAloud                          Intent Classifier   0         Success            
+ Reject                             Intent Classifier   0         Success            
+ Repeat                             Intent Classifier   0         Success            
+ SelectAny                          Intent Classifier   0         Success            
+ SelectItem                         Intent Classifier   0         Success            
+ SelectNone                         Intent Classifier   0         Success            
+ ShowNext                           Intent Classifier   0         Success            
+ ShowPrevious                       Intent Classifier   0         Success            
+ StartOver                          Intent Classifier   0         Success            
+ Stop                               Intent Classifier   0         Success            
+ DirectionalReference               Entity Extractor    0         Success            
+
+Can only assign keys of kind(s) CognitiveServices, LUIS.
+
+LUIS Command Line Interface - ┬⌐ 2018 Microsoft Corporation
+
+Assigns a LUIS Azure account to the application.
+
+Usage:
+luis add appazureaccount --in accountToAdd.json --appId <string>
+
+Command arguments are:
+ --in (required)               The object to send in the body of the request                                                                                                                                        
+                               {                                                                                                                                                                                    
+                                   "azureSubscriptionId": "00000000-0000-0000-0000-000000000000",                                                                                                                   
+                                   "resourceGroup": "ResourceGroupName",                                                                                                                                            
+                                   "accountName": "AccountName"                                                                                                                                                     
+                               }                                                                                                                                                                                    
+ --armToken <string>           The user's ARM token from https://resources.azure.com/api/token?plaintext=true.                                                                                                      
+ (required)                                                                                                                                                                                                         
+ --appId <string> (required)   The application ID.                                                                                                                                                                  
+
+Configuration and Overrides:
+ --appId                       Specifies the public LUIS application id. Overrides the .luisrc value and the LUIS_APP_ID environment variable.                                                                      
+ --authoringKey                Specifies the LUIS authoring  key (from luis.ai portal user settings page). Overrides the .luisrc value and the LUIS_AUTHORING_KEY environment variable.                             
+ --subscriptionKey             Specifies the LUIS subscriptionKey. Overrides the .luisrc value and the LUIS_SUBSCRIPTION_KEY environment variable.                                                                  
+ --versionId                   Specifies the version id. Overrides the .luisrc value and the LUIS_VERSION_ID environment variable.                                                                                  
+ --region                      Specifies the authoring region for all requests. [westus|westeurope|australiaeast] Overrides the .luisrc value and the LUIS_REGION environment variable.                             
+ --cloud                       Specifies the cloud region for all requests. [com|us] Overrides the .luisrc value and the LUIS_CLOUD environment variable.                                                           
+ --stdin                       Pull in service keys from stdin in the format of that is the output of: msbot get service                                                                                            
+ --prefix                      Appends [luis-apis] prefix to all messages                                                                                                                                           
+
+Global Arguments:
+ --help,    -h                 Prints this help file.                                                                                                                                                               
+ --version, -v                 Prints the version of this cli tool                                                                                                                                                  
+ --force,   -f                 Do not prompt for confirmation, force the operation                                                                                                                                  
+ --!                           Dumps all documented commands to the console with descriptions                                                                                                                       
+
+Running...
+Running...
+Running...
+Succeeded... done
+Running...
+Running...
+Succeeded... done
+Exporting services for dispatch...
+Exporting SRLuisen-us_General LUIS application...
+Exported LUIS app JSON is at C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_L_SRLuisen-us_General.json
+Exporting Chitchat QnA kb...
+Exported QnA app JSON is at C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_Q_q_Chitchat.json
+Expanding kb dd9c8746-7688-450e-908e-efe1a61308fb with word alterations
+Exporting Faq QnA kb...
+Exported QnA app JSON is at C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_Q_q_Faq.json
+Expanding kb 6a441259-3dc3-4ca8-92c9-7e9ea1383a0b with word alterations
+Creating dispatch LUIS model json...
+Creating training data...
+WARNING: Number of utterances in 'C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\train.txt' that were used by multiple intents: 24
+WARNING: very few samples (breaking-point for debugging purpose), foldSize=0.6, foldsCount=5, Samples.Length=3, category=None, TrainingSamplesCount=2, TestingSamplesCount=1
+WARNING: Number of utterances in 'C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold000\train.txt' that were used by multiple intents: 17
+WARNING: Number of utterances in 'C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold000\test.txt' that were used by multiple intents: 1
+WARNING: Number of utterances in 'C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold001\train.txt' that were used by multiple intents: 16
+WARNING: Number of utterances in 'C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold001\test.txt' that were used by multiple intents: 1
+WARNING: Number of utterances in 'C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold002\train.txt' that were used by multiple intents: 14
+WARNING: Number of utterances in 'C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold002\test.txt' that were used by multiple intents: 2
+WARNING: Number of utterances in 'C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold003\train.txt' that were used by multiple intents: 16
+WARNING: Number of utterances in 'C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold004\train.txt' that were used by multiple intents: 15
+WARNING: Number of utterances in 'C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\data\_experiments\model_001\cv5\fold004\test.txt' that were used by multiple intents: 2
+Updating SRLuisen-us_Dispatch model...
+Training SRLuisen-us_General...
+Importing SRLuisen-us_Dispatch model...
+Setting up intents to child services mapping for SRLuisen-us_Dispatch...
+Add subscription key and publish child LUIS apps...
+Publishing SRLuisen-us_General model...
+Training SRLuisen-us_Dispatch model...
+Publishing SRLuisen-us_Dispatch model...
+Writing summary file ('test_prediction')...
+Please review your dispatch model in C:\Users\TomasBakita\source\repos\SwissReAssistantPOC\SwissReAssistantPOC\SwissReAssistantPOC\Deployment\Resources\Dispatch\en-us\Summary.html
+
+Can only assign keys of kind(s) CognitiveServices, LUIS.
+
+LUIS Command Line Interface - ┬⌐ 2018 Microsoft Corporation
+
+Assigns a LUIS Azure account to the application.
+
+Usage:
+luis add appazureaccount --in accountToAdd.json --appId <string>
+
+Command arguments are:
+ --in (required)               The object to send in the body of the request                                                                                                                                        
+                               {                                                                                                                                                                                    
+                                   "azureSubscriptionId": "00000000-0000-0000-0000-000000000000",                                                                                                                   
+                                   "resourceGroup": "ResourceGroupName",                                                                                                                                            
+                                   "accountName": "AccountName"                                                                                                                                                     
+                               }                                                                                                                                                                                    
+ --armToken <string>           The user's ARM token from https://resources.azure.com/api/token?plaintext=true.                                                                                                      
+ (required)                                                                                                                                                                                                         
+ --appId <string> (required)   The application ID.                                                                                                                                                                  
+
+Configuration and Overrides:
+ --appId                       Specifies the public LUIS application id. Overrides the .luisrc value and the LUIS_APP_ID environment variable.                                                                      
+ --authoringKey                Specifies the LUIS authoring  key (from luis.ai portal user settings page). Overrides the .luisrc value and the LUIS_AUTHORING_KEY environment variable.                             
+ --subscriptionKey             Specifies the LUIS subscriptionKey. Overrides the .luisrc value and the LUIS_SUBSCRIPTION_KEY environment variable.                                                                  
+ --versionId                   Specifies the version id. Overrides the .luisrc value and the LUIS_VERSION_ID environment variable.                                                                                  
+ --region                      Specifies the authoring region for all requests. [westus|westeurope|australiaeast] Overrides the .luisrc value and the LUIS_REGION environment variable.                             
+ --cloud                       Specifies the cloud region for all requests. [com|us] Overrides the .luisrc value and the LUIS_CLOUD environment variable.                                                           
+ --stdin                       Pull in service keys from stdin in the format of that is the output of: msbot get service                                                                                            
+ --prefix                      Appends [luis-apis] prefix to all messages                                                                                                                                           
+
+Global Arguments:
+ --help,    -h                 Prints this help file.                                                                                                                                                               
+ --version, -v                 Prints the version of this cli tool                                                                                                                                                  
+ --force,   -f                 Do not prompt for confirmation, force the operation                                                                                                                                  
+ --!                           Dumps all documented commands to the console with descriptions                                                                                                                       
+
